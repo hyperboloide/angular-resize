@@ -1,0 +1,18 @@
+.Resizable {
+  cursor: ew-resize;
+  position: absolute;
+  z-index: 1;
+}
+
+.Resizable .Handle {
+  margin-left: 8px;
+  margin-right: 8px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  min-height:100%;
+}
+
+.Resizable .Handle:hover {
+  border-left: 2px solid #FFCC00;
+  border-right: 2px solid #FFCC00;
+}
